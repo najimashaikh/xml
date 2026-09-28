@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Library>
+
+    <Book>
+        <title>Java Programming</title>
+        <author>Balguru Swami</author>
+        <ISBN>1111</ISBN>
+        <price>250</price>
+    </Book>
+
+    <Book>
+        <title>C Programming</title>
+        <author>Denis Ritchie</author>
+        <ISBN>2222</ISBN>
+        <price>300</price>
+    </Book>
+
+    <Book>
+        <title>Python</title>
+        <author>Guido</author>
+        <ISBN>3333</ISBN>
+        <price>400</price>
+    </Book>
+
+</Library>
