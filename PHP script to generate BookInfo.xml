@@ -1,0 +1,34 @@
+<?php
+
+$xml = new DOMDocument("1.0", "UTF-8");
+
+$bookinfo = $xml->createElement("BookInfo");
+$xml->appendChild($bookinfo);
+
+// Book 1
+$book = $xml->createElement("book");
+$bookinfo->appendChild($book);
+
+$book->appendChild($xml->createElement("bookno", "1"));
+$book->appendChild($xml->createElement("bookname", "JAVA"));
+$book->appendChild($xml->createElement("authorname", "Balguru Swami"));
+$book->appendChild($xml->createElement("price", "250"));
+$book->appendChild($xml->createElement("year", "2006"));
+
+// Book 2
+$book = $xml->createElement("book");
+$bookinfo->appendChild($book);
+
+$book->appendChild($xml->createElement("bookno", "2"));
+$book->appendChild($xml->createElement("bookname", "C"));
+$book->appendChild($xml->createElement("authorname", "Denis Ritchie"));
+$book->appendChild($xml->createElement("price", "500"));
+$book->appendChild($xml->createElement("year", "1971"));
+
+$xml->formatOutput = true;
+
+$xml->save("BookInfo.xml");
+
+echo "BookInfo.xml created successfully";
+
+?>
