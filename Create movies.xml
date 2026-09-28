@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MovieStore>
+
+    <Classical>
+
+        <Category>
+            <MovieTitle>Mughal-E-Azam</MovieTitle>
+            <ActorName>Dilip Kumar</ActorName>
+            <ReleaseYear>1960</ReleaseYear>
+            <rating>5</rating>
+        </Category>
+
+        <Category>
+            <MovieTitle>Sholay</MovieTitle>
+            <ActorName>Amitabh Bachchan</ActorName>
+            <ReleaseYear>1975</ReleaseYear>
+            <rating>4</rating>
+        </Category>
+
+    </Classical>
+
+    <Horror>
+
+        <Category>
+            <MovieTitle>Conjuring</MovieTitle>
+            <ActorName>Vera Farmiga</ActorName>
+            <ReleaseYear>2013</ReleaseYear>
+            <rating>4</rating>
+        </Category>
+
+        <Category>
+            <MovieTitle>Annabelle</MovieTitle>
+            <ActorName>Annabelle Wallis</ActorName>
+            <ReleaseYear>2014</ReleaseYear>
+            <rating>3</rating>
+        </Category>
+
+    </Horror>
+
+    <Action>
+
+        <Category>
+            <MovieTitle>War</MovieTitle>
+            <ActorName>Hrithik Roshan</ActorName>
+            <ReleaseYear>2019</ReleaseYear>
+            <rating>5</rating>
+        </Category>
+
+    </Action>
+
+</MovieStore>
