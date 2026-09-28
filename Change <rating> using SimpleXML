@@ -1,0 +1,20 @@
+<?php
+
+$xml = simplexml_load_file("movies.xml");
+
+$movie = "War";
+$newrating = 4;
+
+foreach($xml->Action->Category as $category)
+{
+    if($category->MovieTitle == $movie)
+    {
+        $category->rating = $newrating;
+    }
+}
+
+$xml->asXML("movies.xml");
+
+echo "Rating updated successfully";
+
+?>
